@@ -6,6 +6,8 @@ let loading = document.getElementById("loading");
 
 function getResult() {
     let options = {
+
+        
         method: "GET",
     }
     loading.classList.remove("d-none");
